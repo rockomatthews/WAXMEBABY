@@ -14,6 +14,33 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+.navbar-logo {
+  height: 50px; /* Adjust the size as needed */
+}
+
+.connect-wallet-button {
+  padding: 0.5rem 1rem;
+  background-color: yellow; /* A green color */
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.connect-wallet-button:hover {
+  background-color: yellow; /* A darker green color on hover */
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -67,3 +94,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
